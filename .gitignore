@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/django
 # Edit at https://www.toptal.com/developers/gitignore?templates=django
 
@@ -17,6 +18,10 @@ media
 
 ### Django.Python Stack ###
 # Byte-compiled / optimized / DLL files
+=======
+# Byte-compiled / optimized / DLL files
+__pycache__/
+>>>>>>> 02f7052da6257027af22a4bf62b54d1cc0004a83
 *.py[cod]
 *$py.class
 
@@ -70,8 +75,18 @@ cover/
 
 # Translations
 *.mo
+<<<<<<< HEAD
 
 # Django stuff:
+=======
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+>>>>>>> 02f7052da6257027af22a4bf62b54d1cc0004a83
 
 # Flask stuff:
 instance/
@@ -170,5 +185,8 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+<<<<<<< HEAD
 
 # End of https://www.toptal.com/developers/gitignore/api/django
+=======
+>>>>>>> 02f7052da6257027af22a4bf62b54d1cc0004a83
