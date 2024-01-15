@@ -28,6 +28,7 @@ class MatriculaViewSet(viewsets.ModelViewSet):
     authentication_classes = [BasicAuthentication]
     permission_classes = [IsAuthenticated]
 
+
 class ListaMatriculasAluno(generics.ListAPIView):
     """Listando as matriculas de um aluno ou aluna"""
     def get_queryset(self):
@@ -37,6 +38,7 @@ class ListaMatriculasAluno(generics.ListAPIView):
     authentication_classes = [BasicAuthentication]
     permission_classes = [IsAuthenticated]
 
+
 class ListaAlunosMatriculados(generics.ListAPIView):
     """Listando alunos e alunas matriculados em um curso"""
     def get_queryset(self):
@@ -45,4 +47,3 @@ class ListaAlunosMatriculados(generics.ListAPIView):
     serializer_class = ListaAlunosMatriculadosSerializer    
     authentication_classes = [BasicAuthentication]
     permission_classes = [IsAuthenticated]
-    
